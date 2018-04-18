@@ -1,0 +1,261 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "i_start_application_by_name",
+      "args": [
+        "[Calculator]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 284
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "testForAppiumDriver",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clearCalculator",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 179 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 179
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 54 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 54
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 57 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 57
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 64 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 64
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 42 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 64 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 64
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 21 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 74 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 74
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 74 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 75
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 53 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 61 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 62
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 27 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 21 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.sec.android.app.popupcalculator:id/bt_clear, using=id}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 51 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.sec.android.app.popupcalculator:id/bt_clear",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 15 seconds waiting for presence of element located by: By.id: com.sec.android.app.popupcalculator:id/bt_clear\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "subLogs": [],
+          "duration": -692815395
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "When add \"3\" to \"5\"",
+      "args": [
+        "[3, 5]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then result should be \"8\"",
+      "args": [
+        "[8]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by name \"Calculator\"",
+      "type": "TestStepPass",
+      "duration": 5900,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I am using an AppiumDriver",
+      "type": "TestStepPass",
+      "duration": 2,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When clear Calculator",
+      "type": "TestStepFail",
+      "screenshot": "img/AppiumExampleScenario_a4kb457qyd6460846.png",
+      "duration": 15977,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 15 seconds waiting for presence of element located by: By.id: com.sec.android.app.popupcalculator:id/bt_clear\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When add \"3\" to \"5\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then result should be \"8\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for presence of element located by: By.id: com.sec.android.app.popupcalculator:id/bt_clear\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: driver.version: QAFExtendedWebDriver\n\tat .When clear Calculator(src/main/resources/scenarios/appiumCalc.feature:9)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:216)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:299)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:250)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\n\tat com.quantum.steps.CalcStepsDefs.clearCalculator(CalcStepsDefs.java:37)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:159)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 51 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'Bingo', ip: '192.168.1.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_60'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=Calculator, desired={appActivity=Calculator, appPackage=com.android.calculator2, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceName=Nexus 5X API 24, cssSelectorsEnabled=true}, driverClass=io.appium.java_client.android.AndroidDriver, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google, cssSelectorsEnabled=true}]\nSession ID: 07c996ef-1c6c-4472-93c2-9e7984317dae\n*** Element info: {Using=id, value=com.sec.android.app.popupcalculator:id/bt_clear}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:236)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementById(QAFExtendedWebDriver.java:375)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementById(QAFExtendedWebDriver.java:1)\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:171)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:216)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:299)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:250)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\n\tat com.quantum.steps.CalcStepsDefs.clearCalculator(CalcStepsDefs.java:37)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:159)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\n\tat org.testng.TestRunner.run(TestRunner.java:635)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\t... 4 more\n"
+}

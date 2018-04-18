@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Appium Demo Suite]" parallel="tests">
+  <parameter name="driver.name" value="appiumDriver"/>
+  <listeners>
+    <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+  </listeners>
+  <test name="Android Calc Test(failed)" parallel="tests">
+    <parameter name="env.resources" value="src/main/resources/android"/>
+    <groups>
+      <run>
+        <include name="@appium"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="scenario"/>
+          <include name="scenario"/>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- Android Calc Test(failed) -->
+</suite> <!-- Failed suite [Appium Demo Suite] -->

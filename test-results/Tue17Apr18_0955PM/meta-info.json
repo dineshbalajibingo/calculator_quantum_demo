@@ -1,0 +1,14 @@
+{
+  "name": "Appium Demo Suite",
+  "status": "unstable",
+  "tests": [
+    "IOSCalcTest",
+    "AndroidCalcTest"
+  ],
+  "total": 4,
+  "pass": 0,
+  "fail": 0,
+  "skip": 4,
+  "startTime": 1524016542371,
+  "endTime": 1524016542680
+}

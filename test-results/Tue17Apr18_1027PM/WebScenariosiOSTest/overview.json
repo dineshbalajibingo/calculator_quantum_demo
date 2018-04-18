@@ -1,0 +1,32 @@
+{
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "13",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "20-Feb-2018 00:19:29"
+    },
+    "run-parameters": {
+      "driver.capabilities.model": "iPhone.*",
+      "resources": "src/main/resources/common",
+      "baseurl": ""
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_60",
+      "os.arch": "x86_64",
+      "host": "Bingo",
+      "os.name": "Mac OS X",
+      "user.name": "dineshbalajivenkataraman",
+      "os.version": "10.13.4"
+    }
+  },
+  "startTime": 1524018469170,
+  "endTime": 0
+}

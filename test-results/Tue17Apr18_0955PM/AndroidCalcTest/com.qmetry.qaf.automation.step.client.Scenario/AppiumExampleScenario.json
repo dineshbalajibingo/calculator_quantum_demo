@@ -1,0 +1,87 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Given I start application by name \"Calculator\"",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I am using an AppiumDriver",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When clear Calculator",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When add \"3\" to \"5\"",
+      "args": [
+        "[3, 5]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then result should be \"8\"",
+      "args": [
+        "[8]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by name \"Calculator\" :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I am using an AppiumDriver",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When clear Calculator",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When add \"3\" to \"5\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then result should be \"8\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Given I start application by name \"Calculator\"@src/main/resources/scenarios/appiumCalc.feature#7 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\n\tat .Given I start application by name \"Calculator\"(src/main/resources/scenarios/appiumCalc.feature:7)\n"
+}

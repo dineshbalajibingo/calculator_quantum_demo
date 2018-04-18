@@ -1,0 +1,95 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "i_start_application_by_name",
+      "args": [
+        "[Calculator]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I am using an AppiumDriver",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When clear Calculator",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When add \"6\" to \"7\"",
+      "args": [
+        "[6, 7]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then result should be \"13\"",
+      "args": [
+        "[13]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by name \"Calculator\"",
+      "type": "TestStepFail",
+      "duration": 10006,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 6 seconds: Unable to create driver instance in 2nd attempt with retry timeout of 6 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.\nUnterminated object at line 1 column 41 path $.",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I am using an AppiumDriver",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When clear Calculator",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When add \"6\" to \"7\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then result should be \"13\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.core.AutomationError: Timed out after 6 seconds: Unable to create driver instance in 2nd attempt with retry timeout of 6 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.\nUnterminated object at line 1 column 41 path $.\n\tat .Given I start application by name \"Calculator\"(src/main/resources/scenarios/appiumCalc.feature:15)\n\tat com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559)\n\tat com.google.gson.stream.JsonReader.doPeek(JsonReader.java:491)\n\tat com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414)\n\tat com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:184)\n\tat com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)\n\tat com.google.gson.Gson.fromJson(Gson.java:887)\n\tat com.google.gson.Gson.fromJson(Gson.java:852)\n\tat com.google.gson.Gson.fromJson(Gson.java:801)\n\tat com.google.gson.Gson.fromJson(Gson.java:773)\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDesiredCapabilities(UiDriverFactory.java:361)\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$3(UiDriverFactory.java:345)\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:219)\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\n\tat com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)\n\tat com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)\n\tat com.quantum.steps.CalcStepsDefs.i_start_application_by_name(CalcStepsDefs.java:30)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:159)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+}
